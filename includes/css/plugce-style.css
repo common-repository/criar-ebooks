@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+input.form-control, textarea.form-control {
+    border: 1px solid #ced4da !important;
+    margin-bottom: 5px;
+}
+
+.btn-group.btn-block {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.head {
+    text-align: center;
+    padding: 15px;
+    background-color: #b7e2c8;
+    border-radius: 5px 5px 0 0;
+    margin-top: 25px;
+}
+
+.sem-ebooks {
+    margin-top: 25px;
+}
+
+.pce-logo {
+    max-width: 100%;
+    max-height: 60px;
+}
+
+.modal {
+    z-index: 99999;
+}
+
+.modal label {
+    font-weight: bold;
+}
+
+#myModal-edit-ebook .modal-body {
+    padding: 0;
+    overflow: hidden;
+}
+
+div.center {
+    width: 100%;
+    text-align: center;
+}
+
+#painel-login {
+    border: 1px solid #b7e2c8;
+    border-radius: 0 0 5px 5px;
+    padding: 30px 15px;
+    margin: 0; 
+}
+
+#sua-conta {
+    border: 1px solid #b7e2c8;
+    border-radius: 0 0 5px 5px;
+    padding: 15px;
+    overflow: hidden;  
+    text-align: center;  
+}
+
+#sua-conta span {
+    font-weight: bold;
+}
+
+.page-login {
+    display: none;
+}
+
+.page-login.open {
+    display: flex;
+}
+
+.aplicacao .title-abas {
+    display: flex;
+}
+
+.aplicacao.close {
+    display: none;
+}
+
+.aplicacao .meus-livros .livros {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.aplicacao .meus-livros .livros .livro {
+    position: relative;
+    display: flex;
+    width: 96%;
+    margin: 2%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+}
+
+.aplicacao .meus-livros .livros .livro .codigos {
+    margin-top: 20px;
+}
+
+.aplicacao .meus-livros .livros .livro a#editar-ebook {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+.aplicacao .meus-livros .livros .livro a:hover {
+    text-decoration: none;
+}
+
+.aplicacao .meus-livros .livros .livro .dados {
+    width: 100%;
+    padding: 30px;
+}
+
+.aplicacao .meus-livros .livros .livro .dados h2 {
+    margin-top: 0;
+}
+
+#form-dados-livro textarea#estrutura {
+    height: 162px;
+}
+
+.codigo {
+    background-color: #ededed;
+    padding: 15px;
+    overflow-wrap: break-word;
+    margin-bottom: 15px;
+}
+
+.form-dados-embed #dados {
+    margin-bottom: 5px;
+}
+
+.form-dados-embed .dados {
+    display: flex;
+}
+
+.form-dados-embed .dados input {
+    width: 80%;
+    margin: 5px 5px 5px 0;
+}
+
+.form-dados-embed .dados .acoes {
+    text-align: left;
+    width: 20%;
+    margin: 5px 5px 5px 0;
+}
+
+.form-dados-embed .dados .acoes button {
+    margin-right: 5px;
+}
+
+.form-dados-embed .dados .acoes .dashicons {
+    vertical-align: sub;
+}
+
+@keyframes waggle {
+    0% {
+      transform: none;
+    }
+    50% {
+      transform: rotateZ(-20deg) scale(1.2);
+    }
+    60% {
+      transform: rotateZ(25deg) scale(1.2);
+    }
+    67.5% {
+      transform: rotateZ(-15deg) scale(1.2);
+    }
+    75% {
+      transform: rotateZ(15deg) scale(1.2);
+    }
+    82.5% {
+      transform: rotateZ(-12deg) scale(1.2);
+    }
+    85% {
+      transform: rotateZ(0) scale(1.2);
+    }
+    100% {
+      transform: rotateZ(0) scale(1);
+    }
+}
+
+@media screen and (max-width : 700px) {
+
+    .navbar .container .row {
+        display: block;
+        text-align: center;
+    }
+
+    .navbar .acao {
+        display: block;
+        margin-top: 15px;
+    }
+    
+}
+
+@media screen and (max-width : 600px) {
+    
+    .navbar .container {
+        display: block;
+    }
+
+}
